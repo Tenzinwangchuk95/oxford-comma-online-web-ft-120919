@@ -5,6 +5,6 @@ def oxford_comma(array)
     return array.join(" and ")
   else array.count >= 3
     array.pop
-    return array
+    array
   end
 end
