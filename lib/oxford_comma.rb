@@ -6,7 +6,7 @@ def oxford_comma(array)
   else array.count >= 3
     array.pop==last_word
     array << "and"
-    array << last word
+    array << last_word
     return array
   end
 end
